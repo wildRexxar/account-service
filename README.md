@@ -1,5 +1,5 @@
 # account-service
-Стек:  **Java 21, Spring Boot 3.1.11, Maven, PostgreSQL 15.0, REST,  JUnit, Liquibase, H2.**
+Стек:  **Java 21, Spring Boot 3.1.11, Maven, PostgreSQL 15.0, REST,  JUnit, Liquibase, H2, Swagger.**
 
 ### Запуск приложения
 
@@ -12,3 +12,5 @@ docker run --name some-postgres -e POSTGRES_PASSWORD=pass -p 5432:5432 -d postgr
 ```
 
 * Запустить проект
+
+* Swagger-UI можно посмотреть по урлу http://localhost:8888/swagger-ui/index.html#

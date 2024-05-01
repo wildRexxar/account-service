@@ -40,8 +40,7 @@ public class PersonServiceTest extends TestFather {
         var person = new PersonCreateDto(
                 "test41@test.com",
                 DocumentType.PASSPORT,
-                "0000000",
-                null);
+                "0000000");
         var sizeBeforeAdding = personRepository.findAll().size();
         personService.save(person);
         var sizeAfterAdding = personRepository.findAll().size();
